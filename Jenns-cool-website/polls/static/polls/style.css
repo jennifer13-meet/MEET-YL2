@@ -1,0 +1,26 @@
+{% static 'polls/style.css' %}
+body {
+	background-image: url('Background.jpeg');
+}
+
+#header {
+	text-align: center;
+	color: green;
+}
+
+#hello_message {
+	color: blue;
+}
+
+#content {
+	text-align: center;
+	width: 40%;
+	margin: auto;
+	color: yellow;
+
+}
+
+#footer {
+	text-align: center;
+}
+

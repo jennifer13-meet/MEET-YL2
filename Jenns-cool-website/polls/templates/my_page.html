@@ -1,0 +1,57 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eminem's peep</title>
+</head>
+<body>
+	<!-- HEADER -->
+	<div id="header">
+		<h1>Eminem's peep</h1>
+	</div>
+
+	<!-- CONTENT -->
+
+	<div id="content">
+		<h3><p>Eminem is an American rapper, record producer and actor known as one of the most controversial and best-selling artists of the early 21st century.</o></h3>
+		<h2><a href="https://www.google.co.il/search?q=eminem&client=ubuntu&hs=CB8&channel=fs&hl=en&source=lnms&tbm=isch&sa=X&ei=ncGJVNC_FcnwUPOMhJgO&ved=0CAgQ_AUoAQ&biw=1855&bih=985#imgdii=_">Amazing pictures of him</a></h2>
+		<iframe width="420" height="315" src="//www.youtube.com/embed/SApMrvgGd2M" frameborder="0" allowfullscreen></iframe>
+		<iframe width="0" height="0" src="//www.youtube.com/embed/P4Uv_4jGgAM?autoplay=1" frameborder="0" allowfullscreen></iframe>
+		<script type="text/javascript">
+		var image1 = new Image()
+		image1.src = "/static/polls/12.jpeg"
+		var image1 = new Image()
+		image1.src = "/static/polls/22.jpeg"
+		var image1 = new Image()
+		image1.src = "/static/polls/Background.jpeg"
+		var image1 = new Image()
+		image1.src = "/static/polls/Eminem1.jpg"
+		var image1 = new Image()
+		image1.src = "/static/polls/images.jpeg"
+		</script>
+		<p><img src="images/pentagg.jpg" width="500" height="300" name="slide" /></p>
+		<script type="text/javascript">
+				var step=1;
+				function slideit()
+				{
+					document.images.slide.src = eval("image"+step+".src");
+					if(step<5)
+						step++;
+					else
+						step=1;
+			setTimeout("slideit()",2500);
+		}
+		slideit();
+		</script>
+	</div>
+
+
+
+	<!-- FOOTER -->
+	<div id="footer">
+		<h2></h2>
+	</div>
+
+</body>
+</html>
